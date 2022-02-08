@@ -1,0 +1,16 @@
+{
+    "Version": "13.6.1",
+    "Name": "sxcu.net - shikihtmen.sxcu.net",
+    "DestinationType": "ImageUploader",
+    "RequestMethod": "POST",
+    "RequestURL": "https://shikihtmen.sxcu.net/api/files/create",
+    "Body": "MultipartFormData",
+    "FileFormName": "file",
+    "Arguments": {
+        "token": "86c2164b-d434-4c30-91d9-b027b4cb3b73"
+    },
+    "URL": "$json:url$",
+    "ThumbnailURL": "$json:thumb$",
+    "DeletionURL": "$json:del_url$",
+    "ErrorMessage": "$json:error$"
+}
